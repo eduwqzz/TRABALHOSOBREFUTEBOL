@@ -56,3 +56,50 @@
     font-size: 1.1rem;
     text-align: center;
 } 
+/* Seção de Campeões */
+.campeoes-section {
+    margin-top: 50px;
+}
+
+.grid-campeoes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.card-selecao {
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+
+.card-selecao:hover {
+    transform: translateY(-5px);
+}
+
+.card-topo {
+    height: 15px; /* Faixa colorida no topo do cartão imitando as cores das seleções */
+}
+.brasil { background-color: #229a1a; }
+.alemanha { background-color: #ffcc00; }
+.italia { background-color: #004d99; }
+.argentina { background-color: #74acdf; }
+
+.card-corpo {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-corpo h3 {
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.titulos {
+    color: #74c69d;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
