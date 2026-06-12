@@ -17,4 +17,4 @@ function verificarResposta(acertou, botaoClicado) {
         // Destaca a alternativa correta mesmo se ele errou
         todosBotoes[1].classList.add('correto'); 
     }
-}
+} 
