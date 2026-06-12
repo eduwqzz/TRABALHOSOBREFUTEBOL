@@ -1,0 +1,58 @@
+ /* Estilos do Quiz */
+.quiz-section {
+    margin-top: 50px;
+}
+
+.quiz-container {
+    background-color: #1c1c1c;
+    padding: 25px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.pergunta {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.opcoes-quiz {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.opcoes-quiz button {
+    background-color: #2d2d2d;
+    color: white;
+    border: 1px solid #444;
+    padding: 12px;
+    text-align: left;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.2s;
+}
+
+.opcoes-quiz button:hover {
+    background-color: #404040;
+}
+
+/* Classes que o JS vai usar para feedback visual */
+.opcoes-quiz button.correto {
+    background-color: #2d6a4f !important;
+    color: white;
+    border-color: #52b788;
+}
+
+.opcoes-quiz button.errado {
+    background-color: #5c1d1d !important;
+    color: white;
+    border-color: #ba1818;
+}
+
+.resultado-quiz {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+}
